@@ -7,13 +7,13 @@ Wulez Achievements based on Habbo.com achievements to Arcturus Emulator.
 
 > Currently work Since Arcturus 1.12.
 
-> Last update: *Suncity crafts*.
+> Last update: *Christmas crafts*.
 
-> Currently [Habbo.com](https://www.habbo.com/) have *1.325* achievements, and [Wulez Achievements](https://github.com/Wulles/Achievements/) have *1.284*.
+> Currently [Habbo.com](https://www.habbo.com/) have *1.345* achievements, and [Wulez Achievements](https://github.com/Wulles/Achievements/) have *1.304*.
 
 ### Contact and Suport
 
-> Discord: Feroz#2800
+> Discord: Wulles#8073
 
 > For issues, you can tell me on my discord or you can create a Issue in this Github.
 
