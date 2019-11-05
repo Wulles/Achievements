@@ -1295,12 +1295,22 @@ INSERT INTO `achievements` (`id`, `name`, `category`, `level`, `reward_amount`, 
 (1281, 'Suncity', 'games', 7, 70, 0, 70, 14),
 (1282, 'Suncity', 'games', 8, 80, 0, 80, 16),
 (1283, 'Suncity', 'games', 9, 90, 0, 90, 18),
-(1284, 'Suncity', 'games', 10, 100, 0, 100, 20);
+(1284, 'Suncity', 'games', 10, 100, 0, 100, 20),
+(1285, 'Hweensummon', 'games', 1, 10, 0, 10, 2),
+(1286, 'Hweensummon', 'games', 2, 20, 0, 20, 4),
+(1287, 'Hweensummon', 'games', 3, 30, 0, 30, 6),
+(1288, 'Hweensummon', 'games', 4, 40, 0, 40, 8),
+(1289, 'Hweensummon', 'games', 5, 50, 0, 50, 10),
+(1290, 'Hweensummon', 'games', 6, 60, 0, 60, 12),
+(1291, 'Hweensummon', 'games', 7, 70, 0, 70, 14),
+(1292, 'Hweensummon', 'games', 8, 80, 0, 80, 16),
+(1293, 'Hweensummon', 'games', 9, 90, 0, 90, 18),
+(1294, 'Hweensummon', 'games', 10, 100, 0, 100, 20);
 
 ALTER TABLE `achievements`
   ADD PRIMARY KEY (`name`,`level`) USING BTREE,
   ADD UNIQUE KEY `id` (`id`) USING BTREE;
 
 ALTER TABLE `achievements`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1285;
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1295;
 COMMIT;
